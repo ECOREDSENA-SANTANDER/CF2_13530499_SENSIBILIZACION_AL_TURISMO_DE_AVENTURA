@@ -17,14 +17,13 @@
             p.mb-4 La comunicación asertiva es la capacidad de expresar ideas, opiniones, emociones y necesidades de manera clara, directa y respetuosa, manteniendo un equilibrio entre los propios derechos y los de las demás personas. Este estilo de comunicación favorece relaciones interpersonales positivas, reduce los conflictos y facilita la comprensión mutua.
             p.mb-0 Según Castanyer (2013), la asertividad implica la capacidad de “expresar sentimientos, opiniones y derechos de forma adecuada sin agredir ni permitir agresiones” (p. 25). En este sentido, la comunicación asertiva permite defender puntos de vista y establecer límites de manera respetuosa, sin recurrir a conductas agresivas ni pasivas.
     
-    p.mb-5 En el turismo de aventura, la comunicación asertiva desempeña un papel fundamental, ya que contribuye a orientar grupos turísticos, transmitir instrucciones de seguridad, resolver conflictos, gestionar situaciones de emergencia y fortalecer relaciones de confianza entre guías, prestadores de servicios y personas turistas. Una comunicación clara y respetuosa facilita la coordinación de las actividades y mejora la experiencia de los participantes.
+    p.mb-5(data-aos="fade-left") En el turismo de aventura, la comunicación asertiva desempeña un papel fundamental, ya que contribuye a orientar grupos turísticos, transmitir instrucciones de seguridad, resolver conflictos, gestionar situaciones de emergencia y fortalecer relaciones de confianza entre guías, prestadores de servicios y personas turistas. Una comunicación clara y respetuosa facilita la coordinación de las actividades y mejora la experiencia de los participantes.
   
-
     .tit.mb-5(data-aos="fade-right")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Técnicas de comunicación asertiva
 
-    p.mb-5 Existen diversas técnicas que ayudan a fortalecer una comunicación efectiva y respetuosa durante la prestación de servicios turísticos. Algunas de las más utilizadas son:
+    p.mb-5(data-aos="fade-left") Existen diversas técnicas que ayudan a fortalecer una comunicación efectiva y respetuosa durante la prestación de servicios turísticos. Algunas de las más utilizadas son:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -56,7 +55,7 @@
           .tarjeta.tarjeta--slyder.b1.p-lg-5.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
-                img.img-a.img-(src='@/assets/curso/tema2/7.svg' alt='AvatarTop')
+                img.img-a.img-t(src='@/assets/curso/tema2/7.svg' alt='AvatarTop')
             h4.text-center.mb-4 Retroalimentación constructiva
             p.mb-4.text-center Ofrecer sugerencias o correcciones de manera respetuosa y orientada a la mejora.
           .tarjeta.tarjeta--slyder.b1.p-lg-5.p-4
@@ -66,18 +65,18 @@
             h4.text-center.mb-4 Control emocional
             p.mb-4.text-center Mantener la calma y actuar de manera profesional ante situaciones de tensión o conflicto.
 
-    p.mb-5 La aplicación de estas técnicas contribuye a generar ambientes de confianza, mejorar la interacción con las personas turistas y garantizar una prestación del servicio más segura, eficiente y satisfactoria.
+    p.mb-5(data-aos="fade-left") La aplicación de estas técnicas contribuye a generar ambientes de confianza, mejorar la interacción con las personas turistas y garantizar una prestación del servicio más segura, eficiente y satisfactoria.
 
     .tit.mb-5(data-aos="fade-right")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Programación Neurolingüística (PNL)
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-5.mb-lg-0.mb-4
         img(src='@/assets/curso/tema2/9.png', alt='')
       .col-lg-7
         .row.justify-content-center.mb-3
-          .col-lg-2
+          .col-lg-2.d-none.d-lg-block
             img(src='@/assets/curso/tema2/10.svg', alt='')
           .col-lg-10
             p.mb-0 La programación neurolingüística corresponde a un conjunto de técnicas orientadas a comprender la relación entre pensamiento, lenguaje y comportamiento humano.
@@ -89,7 +88,7 @@
       img(:src="require_src('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Manejo de la comunicación en turismo de aventura
     
-    p.mb-4 El manejo adecuado de la comunicación resulta esencial antes, durante y después de las actividades turísticas.
+    p.mb-4(data-aos="fade-right") El manejo adecuado de la comunicación resulta esencial antes, durante y después de las actividades turísticas.
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12

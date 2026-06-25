@@ -58,13 +58,14 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 3',
+        titulo: 'Servicio al cliente. Ciclo del servicio, momentos de verdad',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Tema 3',
+        titulo:
+          'Manejo de recursos logísticos para el desarrollo de actividades de turismo de aventura',
         desarrolloContenidos: true,
       },
     ],

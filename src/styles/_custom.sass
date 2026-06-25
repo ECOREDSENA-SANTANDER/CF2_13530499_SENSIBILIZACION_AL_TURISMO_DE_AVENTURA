@@ -11,20 +11,20 @@
   &-2
     position: absolute
     top: 0%
-    right: 120%
+    right: 95%
     width: 100px
     animation: float1 3.5s ease-in-out infinite alternate
   &-3
     position: absolute
     top: 80%
-    right: 20%
-    width: 100px
+    right: 10%
+    width: 70px
     animation: float1 3.5s ease-in-out infinite alternate
   &-4
     position: absolute
-    top: -50%
-    right: 20%
-    width: 100px
+    top: -60%
+    right: 0%
+    width: 90px
     animation: float1 3.5s ease-in-out infinite alternate
 
 @keyframes float1
@@ -40,7 +40,7 @@
     width: 95% !important
 
 .banner-principal__row .banner-principal__img
-  width: 450px !important
+  width: 600px !important
   @media screen and (max-width: $bp-max-xl)
     width:400px !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
@@ -210,7 +210,7 @@ figcaption
   font-size: 20px
   left: 0
   top: -0.2em
-  margin-right: -5px !important
+  margin-right: 20px !important
 
 .tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
   color: $black
@@ -239,8 +239,35 @@ figcaption
   font-size: 4rem
   color: #04D1D4
 
-
-
+.color-acento-botones
+  .tabs-a__tab
+    padding: 12px 13px
+    font-size: 16px  
+    white-space: normal 
+    line-height: 1.5
+    min-height: 40px 
+  @media (min-width: 1200px) 
+    .col-xl-3
+      flex: 0 0 auto
+      width: 27%
+    .col-xl-9
+      flex: 0 0 auto
+      width: 73%
+.tabs-a__tab:last-child 
+  margin-bottom: 0 !important
+  background-color: #F5EED7
+  color: black !important
+.color-a
+  background-color: #E5FBFB
+  border-radius: 10px
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #04D1D4 !important
+  color: black !important
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+  background-color: #04D1D4 !important
+.color-acento-botones .tabs-a__tab 
+  padding: 9px 15px
+  font-size: 16px
 
 
 
@@ -304,3 +331,16 @@ figcaption
     width: 30%
   th:nth-child(3)
     width: 40%
+
+.tabla-a.tab3
+  tbody
+    td:first-child
+      font-weight: bold
+    //td
+      border-left: 2.5px solid #AFAFAF
+    //td:first-child
+      border-left: none
+  th:nth-child(1)
+    width: 30%
+  th:nth-child(2)
+    width: 70%

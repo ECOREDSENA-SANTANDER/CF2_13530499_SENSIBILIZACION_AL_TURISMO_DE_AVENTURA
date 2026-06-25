@@ -59,28 +59,30 @@
             p.mb-0 Algunos elementos del lenguaje no verbal son:
             br
             br
-            ul.lista-ul.mb-0
-              li.d-flex.mb-0
-                i.fas.fa-leaf
-                p.mb-0 Expresiones faciales: reflejan emociones como alegría, sorpresa, preocupación o enojo.
-              li.d-flex.mb-0
-                i.fas.fa-leaf
-                p.mb-0 Postura corporal: puede mostrar interés, confianza, nerviosismo o desinterés. 
-              li.d-flex.mb-0
-                i.fas.fa-leaf
-                p.mb-0 Gestos: complementan y refuerzan el mensaje verbal. 
-              li.d-flex.mb-0
-                i.fas.fa-leaf
-                p.mb-0 Contacto visual: transmite atención, seguridad y respeto. 
-              li.d-flex.mb-0
-                i.fas.fa-leaf
-                p.mb-0 Tono de voz: permite expresar emociones y dar énfasis al mensaje.
-              li.d-flex.mb-0
-                i.fas.fa-leaf
-                p.mb-0 Distancia interpersonal: indica el nivel de cercanía o comodidad entre las personas.
+            .row.justify-content-center.align-items-center.mb-0.d-flex
+              .col-lg-12
+                ul.lista-ul.mb-0
+                  li.d-flex.mb-0
+                    i.fas.fa-leaf
+                    p.mb-0 #[b Expresiones faciales:] reflejan emociones como alegría, sorpresa, preocupación o enojo.
+                  li.d-flex.mb-0
+                    i.fas.fa-leaf
+                    p.mb-0 #[b Postura corporal:] puede mostrar interés, confianza, nerviosismo o desinterés. 
+                  li.d-flex.mb-0
+                    i.fas.fa-leaf
+                    p.mb-0 #[b Gestos:] complementan y refuerzan el mensaje verbal. 
+                  li.d-flex.mb-0
+                    i.fas.fa-leaf
+                    p.mb-0 #[b Contacto visual:] transmite atención, seguridad y respeto. 
+                  li.d-flex.mb-0
+                    i.fas.fa-leaf
+                    p.mb-0 #[b Tono de voz:] permite expresar emociones y dar énfasis al mensaje.
+                  li.d-flex.mb-0
+                    i.fas.fa-leaf
+                    p.mb-0 #[b Distancia interpersonal:] indica el nivel de cercanía o comodidad entre las personas.
     
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-right")
+      .col-lg-5.d-none.d-lg-block
         img(src="@/assets/curso/tema1/6.png", alt="Descripción imagen")
       .col-lg-7
         .bg4.p-lg-5.p-4.mb-4
@@ -96,12 +98,12 @@
           img.img-t.img-a(src='@/assets/curso/tema1/7.svg',alt='Diagrama sobre la comunicación no verbal que muestra la distribución del impacto del mensaje: las palabras transmiten el 7 %, el tono de voz entre el 20 % y 30 %, y el lenguaje corporal entre el 60 % y 80 %. Además, destaca que aproximadamente el 93 % del mensaje se comunica a través del tono de voz y el lenguaje corporal.')
 
     .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block
         img(src="@/assets/curso/tema1/8.png", alt="Descripción imagen")
       .col-lg-9
         .bg5.mb-5
           .row
-            .col-lg-5
+            .col-lg-5.d-none.d-lg-block
               img.img-t(src="@/assets/curso/tema1/9.svg", alt="Descripción imagen")
             .col-lg-7.cen
               .p-4
@@ -169,7 +171,7 @@
                   tr
                     td Contexto
                     td Situación o entorno donde ocurre la comunicación.
-          .col-lg-4
+          .col-lg-4.d-none.d-lg-block
             img(src="@/assets/curso/tema1/10.png", alt="Descripción imagen")
 
     p.mb-5(data-aos="fade-right") En turismo de aventura, la retroalimentación resulta fundamental para verificar que las personas participantes comprendan instrucciones relacionadas con seguridad y operación turística.
@@ -179,7 +181,7 @@
       h3.mb-0 Protocolo social en turismo de aventura
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-6
+      .col-lg-6.mb-lg-0.mb-4
         img(src="@/assets/curso/tema1/11.png", alt="Descripción imagen")
       .col-lg-6
         p.mb-3 El protocolo social comprende el conjunto de normas de comportamiento, cortesía y convivencia que favorecen una interacción respetuosa, cordial y profesional entre las personas. En el contexto del turismo de aventura, estas prácticas son fundamentales para generar ambientes de confianza, fortalecer las relaciones con las personas turistas y contribuir al desarrollo de experiencias seguras y satisfactorias.
