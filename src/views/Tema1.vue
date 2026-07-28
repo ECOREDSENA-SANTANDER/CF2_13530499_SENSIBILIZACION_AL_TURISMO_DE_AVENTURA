@@ -63,22 +63,22 @@
               .col-lg-12
                 ul.lista-ul.mb-0
                   li.d-flex.mb-0
-                    i.fas.fa-leaf
+                    i.lista-ul__vineta
                     p.mb-0 #[b Expresiones faciales:] reflejan emociones como alegría, sorpresa, preocupación o enojo.
                   li.d-flex.mb-0
-                    i.fas.fa-leaf
+                    i.lista-ul__vineta
                     p.mb-0 #[b Postura corporal:] puede mostrar interés, confianza, nerviosismo o desinterés. 
                   li.d-flex.mb-0
-                    i.fas.fa-leaf
+                    i.lista-ul__vineta
                     p.mb-0 #[b Gestos:] complementan y refuerzan el mensaje verbal. 
                   li.d-flex.mb-0
-                    i.fas.fa-leaf
+                    i.lista-ul__vineta
                     p.mb-0 #[b Contacto visual:] transmite atención, seguridad y respeto. 
                   li.d-flex.mb-0
-                    i.fas.fa-leaf
+                    i.lista-ul__vineta
                     p.mb-0 #[b Tono de voz:] permite expresar emociones y dar énfasis al mensaje.
                   li.d-flex.mb-0
-                    i.fas.fa-leaf
+                    i.lista-ul__vineta
                     p.mb-0 #[b Distancia interpersonal:] indica el nivel de cercanía o comodidad entre las personas.
     
     .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-right")
@@ -112,21 +112,21 @@
                   .col-lg-6
                     ul.lista-ul.mb-0
                       li.d-flex.mb-0
-                        i.fas.fa-leaf
+                        i.lista-ul__vineta
                         p.mb-0 Seguridad.
                       li.d-flex.mb-0
-                        i.fas.fa-leaf
+                        i.lista-ul__vineta
                         p.mb-0 Liderazgo.
                       li.d-flex.mb-0
-                        i.fas.fa-leaf
+                        i.lista-ul__vineta
                         p.mb-0 Confianza.
                   .col-lg-6
                     ul.lista-ul.mb-0
                       li.d-flex.mb-0
-                        i.fas.fa-leaf
+                        i.lista-ul__vineta
                         p.mb-0 Tranquilidad.
                       li.d-flex.mb-0
-                        i.fas.fa-leaf
+                        i.lista-ul__vineta
                         p.mb-0 Control emocional.
         p.mb-0 Una postura firme, un contacto visual adecuado y una actitud serena ayudan a generar confianza y a reducir la incertidumbre durante las actividades. Por el contrario, una postura insegura, gestos contradictorios o señales de nerviosismo pueden transmitir desconfianza, aumentar la percepción de riesgo y afectar negativamente la experiencia turística. Por ello, el manejo consciente del lenguaje no verbal es una competencia clave para quienes lideran actividades de turismo de aventura.
 
@@ -199,30 +199,29 @@
             br
             ul.lista-ul.mb-0
               li.d-flex.mb-0
-                i.fas.fa-leaf
+                i.lista-ul__vineta
                 p.mb-0 Saludo cordial y amable.
               li.d-flex.mb-0
-                i.fas.fa-leaf
+                i.lista-ul__vineta
                 p.mb-0 Presentación personal adecuada.
               li.d-flex.mb-0
-                i.fas.fa-leaf
+                i.lista-ul__vineta
                 p.mb-0 Uso de un lenguaje respetuoso y profesional.
               li.d-flex.mb-0
-                i.fas.fa-leaf
+                i.lista-ul__vineta
                 p.mb-0 Puntualidad en las actividades programadas.
               li.d-flex.mb-0
-                i.fas.fa-leaf
+                i.lista-ul__vineta
                 p.mb-0 Escucha activa de las necesidades e inquietudes de las personas turistas.
               li.d-flex.mb-0
-                i.fas.fa-leaf
+                i.lista-ul__vineta
                 p.mb-0 Empatía y disposición para brindar apoyo.
               li.d-flex.mb-0
-                i.fas.fa-leaf
+                i.lista-ul__vineta
                 p.mb-0 Manejo adecuado de conflictos y situaciones difíciles.
               li.d-flex.mb-0
-                i.fas.fa-leaf
+                i.lista-ul__vineta
                 p.mb-0 Respeto por las diferencias culturales, sociales y personales.
-
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12

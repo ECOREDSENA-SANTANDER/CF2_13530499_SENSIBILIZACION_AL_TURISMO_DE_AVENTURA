@@ -33,21 +33,21 @@
               .col-lg-6.col-md-6
                 ul.lista-ul.mb-0
                   li.d-flex.mb-0
-                    i.fas.fa-leaf
+                    i.lista-ul__vineta
                     p.mb-0 Prevención.
                   li.d-flex.mb-0
-                    i.fas.fa-leaf
+                    i.lista-ul__vineta
                     p.mb-0 Planificación.
                   li.d-flex.mb-0
-                    i.fas.fa-leaf
+                    i.lista-ul__vineta
                     p.mb-0 Control operacional.
               .col-lg-6.col-md-6
                 ul.lista-ul.mb-0
                   li.d-flex.mb-0
-                    i.fas.fa-leaf
+                    i.lista-ul__vineta
                     p.mb-0 Capacitación.
                   li.d-flex.mb-0
-                    i.fas.fa-leaf
+                    i.lista-ul__vineta
                     p.mb-0 Gestión del riesgo.
 
     p.mb-5(data-aos="fade-right") En este contexto, la gestión de la seguridad involucra diversos aspectos que deben ser evaluados y supervisados de manera permanente, entre ellos:
