@@ -655,6 +655,10 @@ export default {
           mensaje_incorrecto: 'Revise nuevamente el componente formativo.',
         },
       ],
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+      mensaje_final_reprobado:
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
