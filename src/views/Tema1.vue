@@ -232,7 +232,7 @@
               .tarjeta.bg-white.p-4.p-lg-5.h-100
                 TarjetaAudio.color-acento-botones.mb-0(
                 texto="Pódcast: Protocolo social en turismo de aventura"
-                :audio="require_src('@/assets/actividad/audio/end-game-success.mp3')"
+                :audio="require_src('@/assets/actividad/audio/Podcast_CF2_13530499_Sensibilizacion_al_turismo_de_aventura.mp3')"
             ).mb-0
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
