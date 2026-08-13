@@ -180,14 +180,14 @@
       img(:src="require_src('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Protocolo social en turismo de aventura
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    //.row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-6.mb-lg-0.mb-4
         img(src="@/assets/curso/tema1/11.png", alt="Descripción imagen")
       .col-lg-6
         p.mb-3 El protocolo social comprende el conjunto de normas de comportamiento, cortesía y convivencia que favorecen una interacción respetuosa, cordial y profesional entre las personas. En el contexto del turismo de aventura, estas prácticas son fundamentales para generar ambientes de confianza, fortalecer las relaciones con las personas turistas y contribuir al desarrollo de experiencias seguras y satisfactorias.
         p.mb-0 La aplicación adecuada del protocolo social permite fortalecer aspectos clave como la atención al cliente, el respeto por la diversidad cultural, la convivencia dentro de los grupos, la imagen profesional del guía o prestador del servicio y la calidad general de la experiencia turística.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    //.row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
