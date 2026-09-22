@@ -24,7 +24,7 @@
           p.mb-0 Actualmente, las dinámicas del turismo de aventura demandan personal capacitado para interactuar de manera asertiva con diferentes perfiles de clientes, manejar situaciones de riesgo, orientar grupos turísticos y responder adecuadamente ante contingencias o emergencias en escenarios naturales. Asimismo, las tendencias del mercado turístico evidencian una creciente necesidad de experiencias personalizadas, sostenibles y centradas en la calidad del servicio.
         p.mb-0 Este componente formativo orienta al aprendiz hacia el fortalecimiento de habilidades relacionadas con la comunicación verbal y no verbal, la comunicación asertiva, la programación neurolingüística aplicada al turismo y el manejo adecuado de protocolos sociales y de atención al cliente. De igual manera, aborda conceptos fundamentales sobre seguridad en turismo de aventura, uso de equipos de protección, gestión de riesgos, diseño de itinerarios y manejo de recursos logísticos necesarios para el desarrollo de actividades turísticas en escenarios naturales.
       .col-lg-4.d-none.d-lg-block
-        img(src="@/assets/curso/intro/2.png", alt="Descripción imagen")
+        img(src="@/assets/curso/intro/2.png")
     
     p.mb-4(data-aos="fade-left") A través de los contenidos propuestos, el aprendiz reconocerá la importancia de integrar seguridad, comunicación y servicio al cliente como pilares fundamentales para el desarrollo de experiencias turísticas responsables, organizadas y alineadas con las necesidades del turismo de aventura en Colombia.
 

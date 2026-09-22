@@ -10,10 +10,10 @@
     .bg6.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-5.col-md-8.col-12.mb-0(data-aos="fade-right")
-          img(src='@/assets/curso/tema3/1.png', alt='')
+          img(src='@/assets/curso/tema3/1.png')
         .col-lg-7(data-aos="fade-left")
           .p-4
-            img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema3/2.svg', alt='')
+            img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema3/2.svg')
             p.mb-4 La seguridad constituye uno de los pilares fundamentales del turismo de aventura, debido a que las actividades desarrolladas implican la interacción con entornos naturales, condiciones ambientales cambiantes y niveles controlados de riesgo. Por esta razón, la planificación, la prevención y la gestión de la seguridad son aspectos esenciales para proteger la vida, la integridad y el bienestar de las personas participantes.
             p.mb-0 En el turismo de aventura, la seguridad no debe entenderse únicamente como la capacidad de respuesta ante emergencias, sino como un proceso integral y permanente orientado a prevenir accidentes, minimizar riesgos, fortalecer la confianza de los usuarios, garantizar experiencias responsables y contribuir a la conservación del entorno natural.
     
@@ -83,12 +83,12 @@
     p.mb-5(data-aos="fade-left") La aplicación adecuada de estos principios permite reducir la probabilidad de incidentes, mejorar la calidad del servicio, generar confianza en los turistas y garantizar experiencias de aventura seguras, responsables y sostenibles.
 
     .tit.mb-5(data-aos="fade-right")
-      img(:src="require_src('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Aplicación de la seguridad en turismo de aventura
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema3/10.png', alt='')
+        img(src='@/assets/curso/tema3/10.png')
       .col-lg-7
         .bg4.p-4
           p.mb-0.mt-lg-4.mb-lg-3.mx-lg-3 La aplicación de la seguridad en el turismo de aventura constituye un proceso fundamental para garantizar el desarrollo adecuado de las actividades y la protección de todas las personas involucradas. Más allá del cumplimiento de normas y procedimientos, la seguridad implica la implementación de acciones preventivas antes, durante y después de cada experiencia, considerando factores como las características del entorno, las condiciones climáticas, el estado de los equipos, la preparación del personal y las capacidades de los participantes. Su correcta aplicación permite reducir riesgos, prevenir incidentes, fortalecer la confianza de los turistas y asegurar que las actividades de aventura se desarrollen de manera responsable, sostenible y acorde con los estándares de calidad establecidos.
@@ -99,25 +99,25 @@
           h5 Figura 4.
           | Seguridad en turismo de aventura
         .bg3.p-4.p-lg-5
-          img.img-t.img-a(src='@/assets/curso/tema3/11.svg',alt='Muestra la seguridad en el turismo de aventura como un proceso continuo antes, durante y después de la actividad, incluyendo planificación, supervisión y evaluación para la gestión de riesgos.')
+          img.img-t.img-a(src='@/assets/curso/tema3/11.svg', alt='Muestra la seguridad en el turismo de aventura como un proceso continuo antes, durante y después de la actividad, incluyendo planificación, supervisión y evaluación para la gestión de riesgos.')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
-        img(src='@/assets/curso/tema3/12.png', alt='')
+        img(src='@/assets/curso/tema3/12.png')
     
     p.mb-5(data-aos="fade-right") La cultura de seguridad corresponde al conjunto de valores, actitudes, hábitos y comportamientos orientados a la prevención de riesgos y a la gestión responsable de la seguridad en el desarrollo de las actividades. En el turismo de aventura, esta cultura se refleja en el cumplimiento de los protocolos establecidos, la disciplina operativa, el autocuidado, la responsabilidad compartida entre participantes y operadores, y el respeto por las instrucciones técnicas impartidas por el personal especializado. Una sólida cultura de seguridad contribuye a fortalecer la confianza de los turistas, promover prácticas responsables y reducir la probabilidad de incidentes durante la experiencia de aventura.
 
     .tit.mb-5(data-aos="fade-left")
-      img(:src="require_src('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Equipos de seguridad: usos y funciones
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-6.mb-lg-0.mb-4
         p.mb-4 Los equipos de seguridad son herramientas diseñadas para proteger a las personas participantes y minimizar riesgos durante las actividades de turismo de aventura.
         p.mb-4 El uso correcto de los equipos depende del tipo de actividad, condiciones del entorno, nivel de dificultad y protocolos técnicos. 
-        p.mb-0 Todos los equipos deben cumplir condiciones de mantenimiento, limpieza, revisión periódica, certificación técnica.
+        p.mb-0 Todos los equipos deben cumplir condiciones de mantenimiento, limpieza, revisión periódica y certificación técnica.
       .col-lg-6
-        img(src='@/assets/curso/tema3/13.png', alt='')
+        img(src='@/assets/curso/tema3/13.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -167,15 +167,15 @@
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-5.mb-lg-0.mb-4
-        img(src='@/assets/curso/tema3/14.png', alt='')
+        img(src='@/assets/curso/tema3/14.png')
       .col-lg-7
         .row.justify-content-center.mb-3
           .col-lg-2.d-none.d-lg-block
-            img(src='@/assets/curso/tema3/15.svg', alt='')
+            img(src='@/assets/curso/tema3/15.svg')
           .col-lg-10
-            p.mb-0 El uso de equipos debe realizarse bajo supervisión técnica y siguiendo instrucciones específicas.  Antes de iniciar cualquier actividad es importante inspeccionar el estado del equipo, ajustar correctamente los elementos, verificar certificaciones, explicar funcionamiento al grupo. 
+            p.mb-0 El uso de equipos debe realizarse bajo supervisión técnica y siguiendo instrucciones específicas. Antes de iniciar cualquier actividad, es importante inspeccionar el estado del equipo, ajustar correctamente los elementos, verificar certificaciones, explicar el funcionamiento al grupo. 
         p.mb-4 El mal uso de equipos representa uno de los principales factores de riesgo en actividades de aventura.
-        p.mb-0 Los equipos de seguridad permiten reducir riesgos, prevenir accidentes, responder ante emergencias, fortalecer confianza, garantizar cumplimiento normativo. 
+        p.mb-0 Los equipos de seguridad permiten reducir riesgos, prevenir accidentes, responder ante emergencias, fortalecer la confianza, garantizar el cumplimiento normativo. 
         p.mb-0 Asimismo, constituyen un requisito obligatorio dentro de las normas técnicas aplicables al turismo de aventura en Colombia.
 
 

@@ -22,36 +22,39 @@ export default {
       tema: 'Gestión de la experiencia del turista de aventura',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión de los conceptos fundamentales relacionados con el turismo de aventura, incluyendo su definición, características, infraestructura, normatividad, atractivos turísticos, recursos turísticos, planta turística, geografía del territorio y perfil del cliente, con el fin de fortalecer los conocimientos sobre el desarrollo sostenible y seguro de esta modalidad turística.',
+        '<b> Objetivo:</b> evaluar la comprensión de los conceptos fundamentales relacionados con la gestión de la experiencia del turista de aventura, considerando sus necesidades, expectativas, perfil y características, así como los elementos que intervienen en la prestación del servicio turístico. Lo anterior, con el fin de fortalecer los conocimientos necesarios para brindar una experiencia segura, satisfactoria, accesible y de calidad, acorde con las características del destino y las particularidades del turismo de aventura.',
       barajarPreguntas: true,
       titulo_aprobado: '¡FELICIDADES!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
-          texto: '¿Qué es el turismo de aventura?',
+          texto:
+            '¿Cuál es la principal finalidad de una comunicación efectiva durante la prestación de un servicio de turismo de aventura?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Turismo empresarial.',
+              texto: 'Reducir el tiempo destinado a la actividad turística.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Turismo de compras.',
-              esCorrecta: false,
+              texto:
+                'Facilitar la comprensión de la información y generar confianza y seguridad en el turista.',
+              esCorrecta: true,
             },
             {
               id: 'c',
               texto:
-                'Una modalidad turística con actividades recreativas y de naturaleza.',
-              esCorrecta: true,
+                'Evitar que el turista realice preguntas durante la actividad.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Un turismo exclusivamente deportivo.',
+              texto:
+                'Limitar la interacción entre el turista y el prestador del servicio',
               esCorrecta: false,
             },
           ],
@@ -61,29 +64,33 @@ export default {
         },
         {
           id: 2,
-          texto: 'Según la OMT, el turismo de aventura incluye:',
+          texto:
+            'Ante un turista que manifiesta inconformidad con el servicio recibido, ¿cuál es una actuación propia de la comunicación asertiva?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Actividades urbanas.',
+              texto:
+                'Interrumpir al turista para explicar inmediatamente las condiciones del servicio.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Turismo religioso.',
+              texto: 'Ignorar la situación para evitar un conflicto.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Solo actividades extremas.',
-              esCorrecta: false,
+              texto:
+                'Escuchar con atención, expresar la información de manera respetuosa y buscar alternativas de solución.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Actividad física, naturaleza e inmersión cultural.',
-              esCorrecta: true,
+              texto:
+                'Indicarle al turista que presente su inconformidad únicamente al finalizar la actividad.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
@@ -93,60 +100,66 @@ export default {
         {
           id: 3,
           texto:
-            '¿Cuál es uno de los elementos diferenciadores del turismo de aventura?',
+            '¿Por qué es fundamental la seguridad en las actividades de turismo de aventura?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Rol dinámico del visitante.',
-              esCorrecta: true,
+              texto: 'Porque permite aumentar la duración de las actividades.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Turismo pasivo.',
+              texto:
+                'Porque disminuye la necesidad de contar con personal capacitado.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Exclusividad hotelera.',
-              esCorrecta: false,
+              texto:
+                'Porque contribuye a prevenir y controlar los riesgos asociados a las actividades y al entorno.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Actividades comerciales.',
+              texto:
+                'Porque permite eliminar completamente los riesgos presentes en escenarios naturales.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente         formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto: 'Revise nuevamente el componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Qué autor define el turismo de aventura como una experiencia con riesgo percibido y desafío personal?',
+            'En el contexto del servicio al cliente, ¿qué se entiende por un momento de verdad?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Acerenza.',
+              texto: 'El momento en que finaliza una actividad turística.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Boullón.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Buckley.',
+              texto:
+                'Cada interacción en la que el turista entra en contacto con la empresa y construye una percepción sobre el servicio.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto:
+                'El instante en que el turista realiza el pago del servicio.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: 'Sung.',
+              texto:
+                'El momento destinado exclusivamente a solucionar una queja.',
               esCorrecta: false,
             },
           ],
@@ -157,29 +170,30 @@ export default {
         {
           id: 5,
           texto:
-            '¿Cuál de las siguientes actividades pertenece al turismo de aventura?',
+            'Un turista llega al punto de atención para iniciar una actividad de aventura. El personal lo recibe, verifica su información, brinda las indicaciones de seguridad y responde sus inquietudes. ¿Qué aspecto del servicio se está gestionando principalmente?',
           imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Ferias empresariales.',
+              texto: 'La promoción del destino turístico.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Turismo financiero.',
+              texto: 'La comercialización de productos turísticos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Compras en centros comerciales.',
-              esCorrecta: false,
+              texto:
+                'La experiencia del cliente durante el ciclo del servicio.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Rafting.</em>',
-              esCorrecta: true,
+              texto: 'La clasificación de los atractivos turísticos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
@@ -188,28 +202,33 @@ export default {
         },
         {
           id: 6,
-          texto: '¿Qué beneficio económico genera el turismo de aventura?',
+          texto:
+            '¿Cuál de las siguientes acciones contribuye a una adecuada gestión de los recursos logísticos para una actividad de turismo de aventura?',
           imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Disminución del empleo.',
+              texto:
+                'Utilizar los equipos disponibles sin verificar su estado.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Dinamización de economías locales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Pérdida cultural.',
+              texto:
+                'Entregar los equipos al turista sin explicar su funcionamiento.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Planificar los equipos, materiales, personal, tiempos y demás recursos necesarios para desarrollar la actividad.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Reducción de visitantes.',
+              texto:
+                'Esperar a que se presenten dificultades para determinar qué recursos hacen falta.',
               esCorrecta: false,
             },
           ],
@@ -220,28 +239,32 @@ export default {
         {
           id: 7,
           texto:
-            '¿Qué promueve el turismo de aventura cuando se gestiona sosteniblemente?',
+            'Antes de iniciar una actividad de turismo de aventura, ¿qué acción permite contribuir a la seguridad de los participantes?',
           imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Turismo masivo.',
+              texto:
+                'Permitir que cada turista seleccione libremente los equipos que desea utilizar.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Destrucción de ecosistemas.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Educación ambiental.',
+              texto:
+                'Verificar las condiciones de los equipos y brindar instrucciones claras sobre su uso y las medidas de seguridad.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto:
+                'Reducir las instrucciones para iniciar rápidamente la actividad.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: 'Contaminación ambiental.',
+              texto:
+                'Delegar todas las decisiones de seguridad en los turistas.',
               esCorrecta: false,
             },
           ],
@@ -251,28 +274,31 @@ export default {
         },
         {
           id: 8,
-          texto: '¿Qué componente NO pertenece a la infraestructura turística?',
+          texto:
+            '¿Qué elemento debe considerarse al organizar logísticamente una actividad de turismo de aventura en un escenario natural?',
           imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Equipos médicos personales.',
-              esCorrecta: true,
+              texto: 'Únicamente el número de turistas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Puentes.',
+              texto: 'Solo el costo de la actividad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Señalización.',
-              esCorrecta: false,
+              texto:
+                'Las características del recorrido, los recursos necesarios, las condiciones del entorno, los tiempos y las medidas de seguridad.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Senderos.',
+              texto:
+                'Exclusivamente las preferencias del prestador del servicio.',
               esCorrecta: false,
             },
           ],
@@ -282,28 +308,30 @@ export default {
         },
         {
           id: 9,
-          texto: 'La accesibilidad turística incluye:',
+          texto:
+            'Un grupo de turistas solicita información sobre una actividad de aventura. El prestador explica de manera clara las características del recorrido, las recomendaciones de seguridad, los equipos requeridos y las condiciones de participación. ¿Qué competencia está fortaleciendo principalmente?',
           imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Artesanías.',
+              texto: 'Gestión contable.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Gastronomía.',
+              texto: 'Promoción comercial.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Senderos y vías de acceso.',
+              texto:
+                'Gestión de la experiencia del turista mediante una comunicación clara y un servicio adecuado.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Protocolos médicos.',
+              texto: 'Administración de inventarios.',
               esCorrecta: false,
             },
           ],
@@ -313,29 +341,34 @@ export default {
         },
         {
           id: 10,
-          texto: '¿Qué busca minimizar la infraestructura de seguridad?',
+          texto:
+            '¿Cuál de las siguientes situaciones refleja una adecuada gestión de la experiencia del turista de aventura?',
           imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Promoción turística.',
+              texto:
+                'Priorizar la rapidez de la actividad sobre las condiciones de seguridad.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Competencia turística.',
+              texto:
+                'Entregar información únicamente cuando el turista la solicite.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Riesgos y emergencias.',
-              esCorrecta: true,
+              texto:
+                'Utilizar los mismos procedimientos para todas las actividades, sin considerar sus características.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Beneficios económicos.',
-              esCorrecta: false,
+              texto:
+                'Integrar comunicación efectiva, seguridad, atención al cliente y organización logística durante la prestación del servicio.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto:
@@ -344,28 +377,33 @@ export default {
         },
         {
           id: 11,
-          texto: '¿Qué significa RNT?',
+          texto:
+            '¿Qué característica debe tener la comunicación del prestador de un servicio de turismo de aventura al brindar instrucciones a los turistas?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Registro Nacional Turístico.',
-              esCorrecta: true,
+              texto:
+                'Ser técnica y utilizar únicamente términos especializados.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Registro Nacional de Transporte.',
+              texto:
+                'Ser extensa y contener información que no esté relacionada con la actividad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Registro Natural Territorial.',
-              esCorrecta: false,
+              texto:
+                'Ser clara, precisa y comprensible, de acuerdo con las características de los turistas y de la actividad.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Reglamento Nacional Turístico.',
+              texto:
+                'Limitarse exclusivamente a las indicaciones relacionadas con el recorrido.',
               esCorrecta: false,
             },
           ],
@@ -375,29 +413,33 @@ export default {
         },
         {
           id: 12,
-          texto: '¿Cuál es la función del RNT?',
+          texto:
+            'Un turista no comprende las instrucciones dadas antes de iniciar una actividad de aventura. ¿Cuál sería la actuación más adecuada del prestador?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Promover industrias mineras.',
+              texto: 'Continuar con la actividad para evitar retrasos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Organizar eventos deportivos.',
+              texto:
+                'Solicitar al turista que consulte las instrucciones por su cuenta.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Regular actividades agrícolas.',
-              esCorrecta: false,
+              texto:
+                'Repetir y explicar las instrucciones de manera clara, verificando que hayan sido comprendidas.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Formalizar prestadores turísticos.',
-              esCorrecta: true,
+              texto:
+                'Excluir al turista de la actividad sin brindarle una explicación.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
@@ -406,28 +448,33 @@ export default {
         },
         {
           id: 13,
-          texto: '¿Cuál es un atractivo turístico natural?',
+          texto:
+            '¿Qué permite una comunicación asertiva entre el prestador y el turista?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Fábricas.',
+              texto:
+                'Evitar cualquier tipo de interacción durante la actividad.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Bancos.',
+              texto:
+                'Imponer las decisiones del prestador frente a las necesidades del turista.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Cañones.',
+              texto:
+                'Expresar información, recomendaciones y límites de manera clara, respetuosa y oportuna.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Oficinas comerciales.',
+              texto:
+                'Reducir la información proporcionada al turista para facilitar el servicio.',
               esCorrecta: false,
             },
           ],
@@ -437,29 +484,33 @@ export default {
         },
         {
           id: 14,
-          texto: '¿Qué evalúa la calidad de un atractivo turístico natural?',
+          texto:
+            'Durante una actividad de turismo de aventura se presenta un cambio inesperado en las condiciones del entorno. ¿Qué debería hacer el prestador del servicio?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Publicidad turística.',
+              texto: 'Continuar la actividad sin informar al grupo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Número de hoteles.',
+              texto:
+                'Permitir que cada turista decida individualmente qué hacer.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Cantidad de visitantes.',
-              esCorrecta: false,
+              texto:
+                'Evaluar la situación, aplicar los protocolos establecidos e informar oportunamente a los turistas sobre las medidas que deben seguir.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Ausencia de contaminación y conservación.',
-              esCorrecta: true,
+              texto:
+                'Suspender toda comunicación con los turistas hasta que finalice la situación.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
@@ -469,28 +520,32 @@ export default {
         {
           id: 15,
           texto:
-            '¿Qué diferencia un recurso turístico de un atractivo turístico?',
+            '¿Qué relación existe entre la seguridad y la experiencia del turista de aventura?',
           imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'El recurso posee uso inmediato.',
+              texto:
+                'La seguridad es independiente de la experiencia del turista.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'El atractivo necesita adecuación.',
+              texto:
+                'La seguridad solo es necesaria cuando ocurre un accidente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'El recurso requiere fortalecimiento.',
+              texto:
+                'La aplicación de medidas de seguridad contribuye a generar confianza y favorece una experiencia satisfactoria.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'No existe diferencia.',
+              texto:
+                'La seguridad tiene como único propósito reducir los costos operativos.',
               esCorrecta: false,
             },
           ],
@@ -500,29 +555,32 @@ export default {
         },
         {
           id: 16,
-          texto: '¿Qué incluye la planta turística?',
+          texto:
+            '¿Qué debe realizarse con los equipos utilizados en una actividad de turismo de aventura antes de entregarlos a los turistas?',
           imagen: '@/assets/actividad/imagen6.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Industrias manufactureras.',
+              texto: 'Entregarlos directamente para optimizar el tiempo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Actividades agrícolas.',
+              texto:
+                'Permitir que cada turista determine si están en condiciones de uso.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Solo alojamiento.',
-              esCorrecta: false,
+              texto:
+                'Verificar su estado, funcionamiento y condiciones de seguridad antes de utilizarlos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Empresas y servicios turísticos.',
-              esCorrecta: true,
+              texto: 'Guardarlos nuevamente sin realizar ninguna revisión.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto:
@@ -532,28 +590,31 @@ export default {
         {
           id: 17,
           texto:
-            '¿Cuál actividad puede desarrollarse gracias al relieve montañoso?',
+            '¿Cuál es la importancia de contar con una adecuada organización de los recursos logísticos?',
           imagen: '@/assets/actividad/imagen7.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Turismo financiero.',
+              texto:
+                'Permite eliminar la necesidad de planificar las actividades.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Escalada.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Comercio electrónico.',
+              texto: 'Facilita únicamente el control de los costos.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Permite disponer oportunamente de los equipos, materiales, personal e insumos necesarios para desarrollar la actividad.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Turismo industrial.',
+              texto:
+                'Permite delegar toda la responsabilidad logística en los turistas.',
               esCorrecta: false,
             },
           ],
@@ -563,28 +624,32 @@ export default {
         },
         {
           id: 18,
-          texto: '¿Qué busca el cliente experiencial?',
+          texto:
+            'Un turista manifiesta que el servicio no cumplió con sus expectativas. ¿Cuál es la respuesta más adecuada por parte del prestador?',
           imagen: '@/assets/actividad/imagen8.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Negocios internacionales.',
+              texto:
+                'Indicarle que las condiciones del servicio ya fueron establecidas y no pueden modificarse.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Turismo médico.',
+              texto: 'Evitar responder para no generar una situación incómoda.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Experiencias memorables y emociones.',
+              texto:
+                'Escuchar su percepción, identificar la situación presentada y brindar una respuesta respetuosa de acuerdo con los procedimientos establecidos.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Actividades laborales.',
+              texto:
+                'Solicitarle que abandone el lugar para evitar afectar la experiencia de los demás turistas.',
               esCorrecta: false,
             },
           ],
@@ -594,28 +659,31 @@ export default {
         },
         {
           id: 19,
-          texto: '¿Cuál es una necesidad actual del turista de aventura?',
+          texto:
+            '¿Qué aspecto debe tenerse en cuenta al planificar los recursos logísticos de una actividad de turismo de aventura?',
           imagen: '@/assets/actividad/imagen9.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Inseguridad.',
+              texto: 'Únicamente el número de turistas inscritos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Información clara y transparente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Turismo masivo.',
+              texto: 'Solamente el tiempo estimado para realizar el recorrido.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Las características de la actividad, las condiciones del entorno, el número de participantes, los equipos requeridos y las medidas de seguridad.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Aislamiento cultural.',
+              texto:
+                'Exclusivamente las preferencias del guía o prestador del servicio.',
               esCorrecta: false,
             },
           ],
@@ -625,28 +693,33 @@ export default {
         },
         {
           id: 20,
-          texto: '¿Qué permite la normatividad turística?',
+          texto:
+            '¿Cuál de las siguientes acciones contribuye a mejorar la experiencia del turista al finalizar una actividad de aventura?',
           imagen: '@/assets/actividad/imagen10.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Restringir visitantes.',
+              texto:
+                'Finalizar la actividad sin brindar información adicional.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Eliminar controles.',
+              texto:
+                'Evitar recibir comentarios para agilizar la salida de los turistas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Garantizar seguridad y calidad.',
+              texto:
+                'Recoger las opiniones del turista, atender sus inquietudes y utilizar la información para fortalecer la calidad del servicio.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Aumentar riesgos.',
+              texto:
+                'Limitar la interacción con el turista una vez termina la actividad.',
               esCorrecta: false,
             },
           ],

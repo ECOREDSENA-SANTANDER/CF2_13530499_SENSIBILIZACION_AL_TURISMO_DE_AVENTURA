@@ -185,11 +185,6 @@ export default {
       significado:
         'Normas de comportamiento y cortesía que favorecen relaciones respetuosas en contextos turísticos.',
     },
-    {
-      termino: 'Infraestructura turística',
-      significado:
-        'Obras y servicios que facilitan el desarrollo de actividades turísticas en un destino.',
-    },
   ],
   referencias: [
     {
@@ -223,12 +218,12 @@ export default {
     },
     {
       referencia:
-        'Colombia. Congreso de la República. (2012). Ley 1523 de 2012 por la cual se adopta la Política Nacional de Gestión del Riesgo de Desastres y se establece el Sistema Nacional de Gestión del Riesgo de Desastres. Diario Oficial No. 48.411.',
+        'Congreso de la República de Colombia. (2012). Ley 1523 de 2012 por la cual se adopta la Política Nacional de Gestión del Riesgo de Desastres y se establece el Sistema Nacional de Gestión del Riesgo de Desastres. Diario Oficial No. 48.411.',
       link: '',
     },
     {
       referencia:
-        'Colombia. Ministerio de Comercio, Industria y Turismo. (2015). Decreto 1074 de 2015. Decreto Único Reglamentario del Sector Comercio, Industria y Turismo. Diario Oficial No. 49.523.',
+        'Colombia. Ministerio de Comercio, Industria y Turismo. (2015). Decreto 1074 de 2015: Por medio del cual se expide el Decreto Único Reglamentario del Sector Comercio, Industria y Turismo. Diario Oficial No. 49.523.',
       link: '',
     },
     {
@@ -280,7 +275,7 @@ export default {
         {
           nombre: 'Celmira Pereira Franco',
           cargo: 'Experta temática',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',

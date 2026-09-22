@@ -10,17 +10,17 @@
     .bg2.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-5.col-md-8.col-12.mb-0(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/1.png', alt='')
+          img(src='@/assets/curso/tema1/1.png')
         .col-lg-7(data-aos="fade-left")
           .p-4
-            img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/2.svg', alt='')
+            img.mb-4.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/2.svg')
             p.mb-4 La comunicación constituye uno de los elementos más importantes dentro de la prestación de servicios turísticos, especialmente en actividades de turismo de aventura donde la interacción entre personas guías, operadores y clientes influye directamente en la seguridad, satisfacción y calidad de la experiencia turística.
             p.mb-0 En contextos de aventura, la comunicación permite: orientar grupos, prevenir riesgos, transmitir instrucciones, fortalecer confianza, resolver situaciones imprevistas, mejorar la experiencia del visitante. 
 
     p.mb-5(data-aos="fade-left") Según Chiavenato (2006), la comunicación puede definirse como: “El intercambio de información entre personas mediante símbolos, signos o comportamientos” (p. 110). En el turismo de aventura, este intercambio debe realizarse de manera clara, oportuna y adaptada a las características del grupo turístico.
 
     .tit.mb-5(data-aos="fade-right")
-      img(:src="require_src('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Lenguaje verbal
     
     p.mb-4(data-aos="fade-left") El lenguaje verbal corresponde a la comunicación transmitida mediante palabras habladas o escritas.
@@ -31,23 +31,23 @@
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Figura 1.
-          | Claves del Lenguaje Verbal
+          | Claves del lenguaje verbal
         .bg3.p-4.p-lg-5
-          img.img-t.img-a(src='@/assets/curso/tema1/3.svg',alt='Claves del lenguaje verbal orientada hacia la claridad, la precisión, el respeto, la empatía, la capacidad de adaptación al cliente, la orientación hacia la seguridad.')
+          img.img-t.img-a(src='@/assets/curso/tema1/3.svg', alt='Claves del lenguaje verbal orientadas hacia la claridad, la precisión, el respeto, la empatía, la capacidad de adaptación al cliente, la orientación hacia la seguridad.')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
-        img(src='@/assets/curso/tema1/4.png', alt='')
+        img(src='@/assets/curso/tema1/4.png')
     
     p.mb-4(data-aos="fade-left") Las instrucciones relacionadas con protocolos de seguridad deben expresarse utilizando mensajes breves y comprensibles, evitando tecnicismos innecesarios o información ambigua.
 
     p.mb-5(data-aos="fade-right") Asimismo, el guía o prestador turístico debe verificar constantemente que las personas participantes comprendan las indicaciones antes de iniciar las actividades.
 
     .tit.mb-5(data-aos="fade-left")
-      img(:src="require_src('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Lenguaje no verbal
 
-    p.mb-4(data-aos="fade-right") ¿Alguna vez has entendido cómo se siente una persona sin que diga una sola palabra? Esto ocurre gracias al #[b lenguaje no verbal], que corresponde a todas las formas de comunicación que transmiten información sin utilizar palabras.
+    p.mb-4(data-aos="fade-right") ¿Alguna vez ha entendido cómo se siente una persona sin que diga una sola palabra? Esto ocurre gracias al #[b lenguaje no verbal], que corresponde a todas las formas de comunicación que transmiten información sin utilizar palabras.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -83,7 +83,7 @@
     
     .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-right")
       .col-lg-5.d-none.d-lg-block
-        img(src="@/assets/curso/tema1/6.png", alt="Descripción imagen")
+        img(src="@/assets/curso/tema1/6.png")
       .col-lg-7
         .bg4.p-lg-5.p-4.mb-4
           p.mb-0 En el turismo de aventura, el lenguaje no verbal desempeña un papel fundamental, ya que contribuye a generar confianza, brindar seguridad y mejorar la experiencia de las personas turistas. Una sonrisa amable, una postura abierta y un contacto visual adecuado pueden comunicar cordialidad y profesionalismo incluso antes de iniciar una conversación.
@@ -95,16 +95,16 @@
           h5 Figura 2.
           | Impacto comunicativo
         .bg3.p-4.p-lg-5
-          img.img-t.img-a(src='@/assets/curso/tema1/7.svg',alt='Diagrama sobre la comunicación no verbal que muestra la distribución del impacto del mensaje: las palabras transmiten el 7 %, el tono de voz entre el 20 % y 30 %, y el lenguaje corporal entre el 60 % y 80 %. Además, destaca que aproximadamente el 93 % del mensaje se comunica a través del tono de voz y el lenguaje corporal.')
+          img.img-t.img-a(src='@/assets/curso/tema1/7.svg', alt='Diagrama sobre la comunicación no verbal que muestra la distribución del impacto del mensaje: las palabras transmiten el 7 %, el tono de voz entre el 20 % y el 30 %, y el lenguaje corporal entre el 60 % y el 80 %. Además, destaca que aproximadamente el 93 % del mensaje se comunica a través del tono de voz y el lenguaje corporal.')
 
     .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
       .col-lg-3.d-none.d-lg-block
-        img(src="@/assets/curso/tema1/8.png", alt="Descripción imagen")
+        img(src="@/assets/curso/tema1/8.png")
       .col-lg-9
         .bg5.mb-5
           .row
             .col-lg-5.d-none.d-lg-block
-              img.img-t(src="@/assets/curso/tema1/9.svg", alt="Descripción imagen")
+              img.img-t(src="@/assets/curso/tema1/9.svg")
             .col-lg-7.cen
               .p-4
                 p.mb-4 En el turismo de aventura, el lenguaje no verbal desempeña un papel   fundamental, ya que las personas turistas suelen depositar su seguridad y   bienestar en el guía o prestador del servicio. A través de la comunicación no   verbal se pueden transmitir aspectos esenciales como:
@@ -131,7 +131,7 @@
         p.mb-0 Una postura firme, un contacto visual adecuado y una actitud serena ayudan a generar confianza y a reducir la incertidumbre durante las actividades. Por el contrario, una postura insegura, gestos contradictorios o señales de nerviosismo pueden transmitir desconfianza, aumentar la percepción de riesgo y afectar negativamente la experiencia turística. Por ello, el manejo consciente del lenguaje no verbal es una competencia clave para quienes lideran actividades de turismo de aventura.
 
     .tit.mb-5(data-aos="fade-left")
-      img(:src="require_src('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Componentes de la comunicación
 
     p.mb-4(data-aos="fade-right") La comunicación está integrada por diversos elementos que permiten el intercambio adecuado de información.
@@ -172,17 +172,17 @@
                     td Contexto
                     td Situación o entorno donde ocurre la comunicación.
           .col-lg-4.d-none.d-lg-block
-            img(src="@/assets/curso/tema1/10.png", alt="Descripción imagen")
+            img(src="@/assets/curso/tema1/10.png")
 
     p.mb-5(data-aos="fade-right") En turismo de aventura, la retroalimentación resulta fundamental para verificar que las personas participantes comprendan instrucciones relacionadas con seguridad y operación turística.
 
     .tit.mb-5(data-aos="fade-left")
-      img(:src="require_src('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Protocolo social en turismo de aventura
 
     //.row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-6.mb-lg-0.mb-4
-        img(src="@/assets/curso/tema1/11.png", alt="Descripción imagen")
+        img(src="@/assets/curso/tema1/11.png")
       .col-lg-6
         p.mb-3 El protocolo social comprende el conjunto de normas de comportamiento, cortesía y convivencia que favorecen una interacción respetuosa, cordial y profesional entre las personas. En el contexto del turismo de aventura, estas prácticas son fundamentales para generar ambientes de confianza, fortalecer las relaciones con las personas turistas y contribuir al desarrollo de experiencias seguras y satisfactorias.
         p.mb-0 La aplicación adecuada del protocolo social permite fortalecer aspectos clave como la atención al cliente, el respeto por la diversidad cultural, la convivencia dentro de los grupos, la imagen profesional del guía o prestador del servicio y la calidad general de la experiencia turística.
@@ -225,7 +225,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
-        img(src='@/assets/curso/tema1/13.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema1/13.svg')
         .row.justify-content-center.g-0
           .col-lg-12
             .tarjeta.color-secundario.p-4.rounded-0.h-100
